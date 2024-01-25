@@ -1,0 +1,15 @@
+
+/*to ensure that the body is stretched across the whole screen*/
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.app-container {
+  min-height: 100vh; /* Ensure the container stretches to at least the full viewport height */
+  background-color: #e29c197a; 
+  font-family: 'Cormorant Garamond, serif'; /* Adjust the font family if needed */
+  /* Add other global styles as needed */
+}
+
